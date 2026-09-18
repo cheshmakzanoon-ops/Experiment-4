@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Engineering Study Guide",
+    "slug": "engineering-study-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.engineeringstudy.app",
+      "buildNumber": "1",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.engineeringstudy.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-splash-screen",
+      "expo-system-ui"
+    ],
+    "scheme": "engineering-study-app",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
